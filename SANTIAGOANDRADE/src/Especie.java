@@ -46,14 +46,14 @@ public class Especie {
         this.cantidad_vendida=5;
     }
 
-
     public void mostrar(){
-        System.out.println(this.nombre);
-        System.out.println(this.vida);
-        System.out.println(this.clase_animal);
-        System.out.println(this.precio);
-        System.out.println(this.cantidad_dispo);
-        System.out.println(this.cantidad_vendida);
+        //De la especie seleccionada se imprime
+        System.out.println(nombre);
+        System.out.println(vida);
+        System.out.println(clase_animal);
+        System.out.println(precio);
+        System.out.println(cantidad_dispo);
+        System.out.println(cantidad_vendida);
     }
 
 }
